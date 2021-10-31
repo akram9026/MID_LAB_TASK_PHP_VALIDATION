@@ -1,0 +1,26 @@
+<?php
+	if(isset($_POST['submit'])){
+	$name = $_POST['email'];
+		if($email == ""){	
+		echo "null submission...";
+		}else{	
+			echo $email;
+		}
+	}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Email</title>
+</head>
+<body>
+	<form method="post" action="#">
+		<fieldset>
+		<legend>Email</legend>
+		<input type="text" email="email" value=""> <br>
+		<input type="submit" email="submit" value="Submit">
+		</fieldset>
+	</form>
+	
+</body>
+</html>
